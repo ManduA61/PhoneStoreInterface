@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px 0px 0px;
+    padding: 140px 0px 160px 0px;
 }
 .addPhone p{
     font-size: 18px;
@@ -18,7 +18,7 @@
 }
 #addPhone{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 5px 0px 10px 0px;
@@ -36,14 +36,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 180px;
-    height: 24px;
-    padding-top: 0px;
-    margin-bottom: 5px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
 }
-#sortByName{
+.sortBtn p,
+.sortBtn i {
+    padding-right: 10px;
+}
+/* #sortByName{
     margin-right: 5px;
-}
+} */
 .sortBtnAll{
     display: flex;
     flex-direction: column;

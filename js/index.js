@@ -6,22 +6,28 @@ window.mainPage = document.querySelector('#root');
 APP.products = [
 	{
 		// un telefon are nume si pret
+		id: '1',
 		nume: 'Iphone XS',
 		price: 4500,
 		year: 2019,
-		dateAdd: '27-5-2020'
+		dateAdd: '27-5-2020',
+		ph: 'img/ph1.png'
 	},
 	{
+		id: '2',
 		nume: 'Huawei P30',
 		price: 4000,
 		year: 2019,
-		dateAdd: '5-5-2020'
+		dateAdd: '5-5-2020',
+		ph: 'img/ph2.png'
 	},
 	{
+		id: '3',
 		nume: 'Samsung S10',
 		price: 4250,
 		year: 2020,
-		dateAdd: '12-4-2020'
+		dateAdd: '12-4-2020',
+		ph: 'img/ph3.png'
 	}
 ];
 // pentru stocare persistenta(sa nu se mai piarda datele la refresh), folosim lacalStorage
